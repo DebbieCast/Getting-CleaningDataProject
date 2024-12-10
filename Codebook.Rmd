@@ -1,0 +1,33 @@
+---
+title: "Code book"
+author: "Debbie"
+date: "2024-12-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Codebook
+
+The tidy dataset contains 69 variables and 180 observations
+
+ActivityLabels -- was modified to "activity name" for the laying, sitting, etc.
+
+Class -- variable used to identify the activity ID 
+
+SubjectID -- used to identify the subject number for the experiments
+
+All other variables that did not have complete names were renamed:
+
+All variables that started with "t" were subsituted for "Time"
+The same applies for "f" --> "Frequency"
+
+The following 3 short names, were given full names:
+"Acc", "Accelerometer"
+"Gyro", "Gyroscope"
+"Mag", "Magnitude"
+
+
+
